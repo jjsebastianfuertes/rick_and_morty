@@ -1,9 +1,10 @@
-import 'package:flavors_example/providers/characters_provider.dart';
-import 'package:flavors_example/providers/episodes_provider.dart';
-import 'package:flavors_example/providers/locations_provider.dart';
-import 'package:flavors_example/screens/home_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+
+import 'providers/characters_provider.dart';
+import 'providers/episodes_provider.dart';
+import 'providers/locations_provider.dart';
+import 'screens/home_screen.dart';
 
 void mainDelegate() => runApp(MyApp());
 

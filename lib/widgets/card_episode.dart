@@ -1,8 +1,9 @@
-import 'package:flavors_example/core/widgets/card_tile.dart';
-import 'package:flavors_example/core/widgets/tile.dart';
-import 'package:flavors_example/core/widgets/tile_vertical.dart';
-import 'package:flavors_example/models/episodes_endpoint/episodes_model.dart';
 import 'package:flutter/material.dart';
+
+import '../core/widgets/card_tile.dart';
+import '../core/widgets/tile.dart';
+import '../core/widgets/tile_vertical.dart';
+import '../models/episodes_endpoint/episodes_model.dart';
 
 class CardEpisode extends StatelessWidget {
   final EpisodeModel episode;

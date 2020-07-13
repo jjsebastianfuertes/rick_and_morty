@@ -1,10 +1,11 @@
-import 'package:flavors_example/models/characters_endpoint/character_model.dart';
-import 'package:flavors_example/providers/characters_provider.dart';
-import 'package:flavors_example/screens/character_screen.dart';
-import 'package:flavors_example/widgets/card_character.dart';
 import 'package:flutter/material.dart';
 import 'package:pagination_view/pagination_view.dart';
 import 'package:provider/provider.dart';
+
+import '../models/characters_endpoint/character_model.dart';
+import '../providers/characters_provider.dart';
+import '../widgets/card_character.dart';
+import 'character_screen.dart';
 
 class CharactersTab extends StatelessWidget {
   @override

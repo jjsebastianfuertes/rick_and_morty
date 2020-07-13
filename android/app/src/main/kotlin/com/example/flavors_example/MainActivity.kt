@@ -1,4 +1,4 @@
-package com.example.flavors_example
+package com.example.rick_and_morty
 
 import androidx.annotation.NonNull;
 import io.flutter.embedding.android.FlutterActivity

@@ -1,7 +1,8 @@
-import 'package:flavors_example/providers/episodes_provider.dart';
-import 'package:flavors_example/widgets/epidose.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+
+import '../providers/episodes_provider.dart';
+import '../widgets/epidose.dart';
 
 class EpisodesScreen extends StatelessWidget {
   final int id;

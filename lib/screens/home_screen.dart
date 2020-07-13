@@ -1,11 +1,12 @@
-import 'package:flavors_example/providers/characters_provider.dart';
-import 'package:flavors_example/providers/episodes_provider.dart';
-import 'package:flavors_example/providers/locations_provider.dart';
-import 'package:flavors_example/screens/characters_tab.dart';
-import 'package:flavors_example/screens/episodes_tab.dart';
-import 'package:flavors_example/screens/locations_tab.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+
+import '../providers/characters_provider.dart';
+import '../providers/episodes_provider.dart';
+import '../providers/locations_provider.dart';
+import 'characters_tab.dart';
+import 'episodes_tab.dart';
+import 'locations_tab.dart';
 
 class HomeScreen extends StatefulWidget {
   @override

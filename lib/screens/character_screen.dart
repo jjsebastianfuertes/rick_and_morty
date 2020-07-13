@@ -1,7 +1,8 @@
-import 'package:flavors_example/providers/characters_provider.dart';
-import 'package:flavors_example/widgets/character.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+
+import '../providers/characters_provider.dart';
+import '../widgets/character.dart';
 
 class CharacterScreen extends StatelessWidget {
   final int id;

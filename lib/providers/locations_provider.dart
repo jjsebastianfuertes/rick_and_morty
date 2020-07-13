@@ -1,10 +1,10 @@
 import 'package:dio/dio.dart';
-import 'package:flavors_example/models/characters_endpoint/character_model.dart';
-import 'package:flavors_example/models/locations_endpoint/location_model.dart';
-import 'package:flavors_example/models/locations_endpoint/locations_list_model.dart';
 import 'package:flutter/material.dart';
 
 import '../core/flavors/flavor_config.dart';
+import '../models/characters_endpoint/character_model.dart';
+import '../models/locations_endpoint/location_model.dart';
+import '../models/locations_endpoint/locations_list_model.dart';
 
 class LocationsProvider with ChangeNotifier {
   final dio = Dio();

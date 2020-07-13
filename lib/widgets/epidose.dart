@@ -1,8 +1,9 @@
-import 'package:flavors_example/models/episodes_endpoint/episodes_model.dart';
-import 'package:flavors_example/providers/episodes_provider.dart';
-import 'package:flavors_example/screens/character_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+
+import '../models/episodes_endpoint/episodes_model.dart';
+import '../providers/episodes_provider.dart';
+import '../screens/character_screen.dart';
 
 class Episode extends StatelessWidget {
   final EpisodeModel episode;

@@ -1,4 +1,3 @@
-import 'package:flavors_example/screens/location_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:pagination_view/pagination_view.dart';
 import 'package:provider/provider.dart';
@@ -6,6 +5,7 @@ import 'package:provider/provider.dart';
 import '../models/locations_endpoint/location_model.dart';
 import '../providers/locations_provider.dart';
 import '../widgets/card_location.dart';
+import 'location_screen.dart';
 
 class LocationsTab extends StatelessWidget {
   @override

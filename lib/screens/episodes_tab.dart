@@ -1,10 +1,11 @@
-import 'package:flavors_example/models/episodes_endpoint/episodes_model.dart';
-import 'package:flavors_example/providers/episodes_provider.dart';
-import 'package:flavors_example/screens/episodes_screen.dart';
-import 'package:flavors_example/widgets/card_episode.dart';
 import 'package:flutter/material.dart';
 import 'package:pagination_view/pagination_view.dart';
 import 'package:provider/provider.dart';
+
+import '../models/episodes_endpoint/episodes_model.dart';
+import '../providers/episodes_provider.dart';
+import '../widgets/card_episode.dart';
+import 'episodes_screen.dart';
 
 class EpisodesTab extends StatelessWidget {
   @override

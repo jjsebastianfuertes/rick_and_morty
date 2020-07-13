@@ -1,7 +1,8 @@
-import 'package:flavors_example/providers/locations_provider.dart';
-import 'package:flavors_example/widgets/location.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+
+import '../providers/locations_provider.dart';
+import '../widgets/location.dart';
 
 class LocationScreen extends StatelessWidget {
   final int id;

@@ -1,9 +1,9 @@
 import 'package:dio/dio.dart';
-import 'package:flavors_example/models/characters_endpoint/character_model.dart';
-import 'package:flavors_example/models/episodes_endpoint/episodes_list_model.dart';
 import 'package:flutter/material.dart';
 
 import '../core/flavors/flavor_config.dart';
+import '../models/characters_endpoint/character_model.dart';
+import '../models/episodes_endpoint/episodes_list_model.dart';
 import '../models/episodes_endpoint/episodes_model.dart';
 
 class EpisodesProvider with ChangeNotifier {

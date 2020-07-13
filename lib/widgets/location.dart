@@ -1,8 +1,9 @@
-import 'package:flavors_example/models/locations_endpoint/location_model.dart';
-import 'package:flavors_example/providers/locations_provider.dart';
-import 'package:flavors_example/screens/character_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+
+import '../models/locations_endpoint/location_model.dart';
+import '../providers/locations_provider.dart';
+import '../screens/character_screen.dart';
 
 class Location extends StatelessWidget {
   final LocationModel location;

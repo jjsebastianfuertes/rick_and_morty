@@ -1,5 +1,6 @@
-import 'package:flavors_example/models/characters_endpoint/character_model.dart';
 import 'package:flutter/material.dart';
+
+import '../models/characters_endpoint/character_model.dart';
 
 class CardCharacter extends StatelessWidget {
   final CharacterModel characters;
